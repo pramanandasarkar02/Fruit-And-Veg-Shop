@@ -1,0 +1,31 @@
+services:
+
+  product_db:
+    image: mongo:8.0
+    container_name: product_db
+
+    ports:
+      - "27017:27017"
+
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+    volumes:
+      - product_db_data:/data/db
+      - product_db_config:/data/configdb
+
+    networks:
+      - product_network
+
+    restart: unless-stopped
+
+
+volumes:
+  product_db_data:
+  product_db_config:
+
+
+networks:
+  product_network:
+    driver: bridge

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-service
+
+  data:
+    mongodb:
+      host: product_db
+      port: 27017
+      username: root
+      password: password
+      database: product_db
+      authentication-database: admin
