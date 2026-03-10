@@ -8,7 +8,7 @@
 - low stock alerts
 
 ## Tech Stack
-- GO
+- Spring Boot
 - POstgresql
 - redis
 - kafka

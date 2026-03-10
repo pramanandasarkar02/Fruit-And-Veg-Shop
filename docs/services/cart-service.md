@@ -8,7 +8,7 @@
 - Cart Expiration
 
 ## Techstack
-- GO(Gin)
+- Spring Boot
 - Redis
 - REST
 

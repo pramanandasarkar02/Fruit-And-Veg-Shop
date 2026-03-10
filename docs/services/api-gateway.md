@@ -7,5 +7,6 @@
 - request logging
 
 ## Rech Stack
+- Spring Boot
 - Kong Gateway
 - NGNIX

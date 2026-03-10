@@ -8,7 +8,7 @@
 - Product Reviews
 
 ## Tech Stack
-- FastaAPI
+- Spring Boot
 - MongoDB
 - Search Enginee (Elastic Search)
 - Redis

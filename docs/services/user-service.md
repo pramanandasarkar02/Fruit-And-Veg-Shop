@@ -10,7 +10,7 @@
 
 
 ## Tech Stack
-- Nest Js(TS)
+- Spring Boot
 - JWT + bcrypt (later add oauth2)
 - postgresql
 - prisma

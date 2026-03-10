@@ -6,7 +6,7 @@
 - consume kafka event
 
 ## Tech stack
-- fast api Python
+- Spring Boot
 - Kafka
 - SendGrid
 - Twilio

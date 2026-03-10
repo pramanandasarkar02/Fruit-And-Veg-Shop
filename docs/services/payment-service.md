@@ -7,7 +7,7 @@
 - Fraud Validation
 
 ## Tech Stack
-- Express JS (JS)
+- Spring Boot
 - postgresql
 - rest + webhook
 - https + tokenized payments
